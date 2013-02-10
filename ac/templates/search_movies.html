@@ -1,0 +1,13 @@
+<html>
+<body>
+	{% if results %}
+		{% for film in results %}
+			<h3>{{film.title}}</h3>
+			<p>Director:{{film.director.name}}</p>
+			<p>When:{{film.created_at}}</p>
+		{% endfor %}
+	{% else %}
+		<p>Sorry no reults</p>
+	{% endif %}
+</body>
+</html>

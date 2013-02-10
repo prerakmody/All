@@ -1,0 +1,13 @@
+<!--This will print out the names of all alumni,faculty and students"
+	This will also enable the search function-->
+<html>
+	<body>
+		{% block content %}
+			<h2>{{search_item}}</h2>
+			<ul>
+				{%for publisher is object_list%}
+					<li>{{publisher.name}}</li>
+					<li>{{publisher.batch}}</li>
+					<li>{{publisher.stream}}</li>
+	</body>
+</html>

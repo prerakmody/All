@@ -1,0 +1,16 @@
+
+<html><body>
+
+<h1>Message Data</h1>
+
+<p>
+	{% if list %}
+	   {% for listing in lists %}
+    {{listing.from_user}}    {{listing.to_user}} <br />
+    {{listing.content}}
+    <br />
+      {% endfor %}
+	{% endif %}
+</p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+1.uSING NAMED GROUPS?
+USEFUL in directories.
+Eg: alumniconnect/dir/batch
+
+2.In search terms[will have get,not POST]
+Eg:alumniconnect/search?city=""&&batch=""&&
+No wrong.
+

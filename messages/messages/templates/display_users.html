@@ -1,0 +1,16 @@
+
+<html><body>
+
+<h1>Users</h1>
+
+<p>
+	{% if list %}
+	   {% for listing in lists %}
+    {{listing.name}}<br />
+    {{listing.rollno}}<br />
+    <br />
+      {% endfor %}
+	{% endif %}
+</p>
+</body>
+</html>
